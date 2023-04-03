@@ -1,0 +1,40 @@
+#submit {
+    background-color: blue;
+    border: none;
+    color: white;
+    padding: 15px;
+    text-align: center;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 15px;
+    border: 2px solid green;
+    box-shadow: 10px 5px yellow;
+}
+#text {
+    border-radius: 15px;
+    border: solid red 2px;
+    padding: 15px;
+}
+#submit:hover {
+    background-color: brown;
+} 
+#submit:active{
+    background-color: chocolate;
+    box-shadow: 10px 5px yellow;
+}
+#text:focus{
+    background-color: blueviolet;
+    color: cornflowerblue;
+}
+#text::placeholder{
+    color:cornflowerblue
+}
+
+/* css before and after styling */
+
+#text::after {
+    content: "submit";
+}
+/* #text::before { */
+    /* content: "submit"; */
+/* } */
