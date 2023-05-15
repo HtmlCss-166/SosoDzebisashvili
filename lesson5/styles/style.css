@@ -1,0 +1,45 @@
+body{
+    background-color: cornflowerblue;
+    border: solid 5px;
+}
+.container{
+    display: flex;
+}
+.box{
+    margin: 25px;
+    padding: 25px;
+}
+h1 {
+    text-align: center;
+    padding-top: 35px;
+
+}
+.box {
+    border: solid 5px;
+    text-align: center;
+}
+.box img{
+    width: 300px;
+    height: 350px;
+}
+.goal {
+    margin-top: -20px;
+}
+th {
+    text-align: center;
+    background-color: rgb(18, 80, 226);
+    border: solid 2px;
+    color: aliceblue;
+    border-radius: 10%;
+}
+td {
+    background-color:cornflowerblue;
+    border: solid 2px;
+    color:rgb(240, 239, 245);
+    border-radius: 10%;
+}
+h3 {
+    color: black;
+    font-size: 14px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
